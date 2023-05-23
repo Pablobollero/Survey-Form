@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html
+
+#body {
+    background-image: url(../img/surveyFormBackGround.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+#title,
+#description {
+    padding: 0px;
+}
+
+#title {
+    margin-top: 5px;
+    font-size: 45px;
+}
+
+#description {
+    font-size: 17px;
+    margin: 0px;
+}
+
+#div1 {
+    margin-top: 35px;
+    width: 535px;
+    height: 650px;
+    background-color: hsl(247, 30%, 25%);
+    opacity: 0.75;
+}
+
+#div2 {
+    max-width: 500px;
+    max-height: 500px;
+    position: absolute;
+    text-align: center;
+    margin-top: 45px;
+    padding: 0px;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 90px;
+}
