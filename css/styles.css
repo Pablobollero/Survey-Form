@@ -1,10 +1,10 @@
+/* Global Styles: Applies to all elements */
 * {
     margin: 0px;
     padding: 0px;
 }
 
-html
-
+/* Body Styling: Styles for the main body div */
 #body {
     background-image: url(../img/surveyFormBackGround.jpg);
     background-repeat: no-repeat;
@@ -19,16 +19,20 @@ html
     flex-direction: column;
 }
 
+/* Title and Description Styling */
 #title,
+/* Description Styling: Specific styles for the description paragraph */
 #description {
     padding: 0px;
 }
 
+/* Title Styling: Specific styles for the title */
 #title {
     margin-top: 5px;
     font-size: 45px;
 }
 
+/* Description Styling: Specific styles for the description paragraph */
 #description {
     font-size: 17px;
     margin: 0px;
