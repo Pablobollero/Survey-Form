@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head Section: Contains meta tags, CSS link, and title -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,15 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Survey Form</title>
 </head>
+<!-- Body Section: Contains the main content of the webpage -->
 <body>
+<!-- Body Container: Encloses the main content of the webpage -->
     <div id="body">
+<!-- Title Header: Displays the main title of the page -->
         <h1 id="title">Survey Form</h1>
+<!-- Description Paragraph: Provides a brief description of the page -->
         <p id="description">This Survey Form is the final project to earn my certification in HTML5 and CSS on FreeCodeCamp.</p>
+<!-- Horizontal Rule: Used for visual separation -->
         <hr>
         <div id="div1"></div>
         <div id="div2">
@@ -21,6 +27,7 @@
                         required /></label><br><br>
                 <label id="number-label" for="number">Age (optional)<input type="number" id="number" min="15" max="95"
                         placeholder="15 to 95 years..." required /></label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <label for="dropdown1">
                     <p>Which option best describes your current role?</p>
@@ -33,6 +40,7 @@
                         <option value="5">Prefer not to say</option>
                     </select>
                 </label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <p>Would you recommend freeCodeCamp to a friend?</p> <label for="definitely"><input id="definitely"
                         name="decision" type="radio" required class="inline" value="definitely" />Definitely
@@ -43,6 +51,7 @@
                 <label for="not_sure"><input id="not_sure" type="radio" name="decision" required class="inline"
                         value="not_sure" />Not Sure
                 </label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <label for="dropdown">
                     <p>What is your favorite feature of freeCodeCamp?</p>
@@ -54,6 +63,7 @@
                         <option value="4">Open Source</option>
                     </select>
                 </label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <p>What would you like to see improved? (Check all that apply)</p>
                 <label>
@@ -97,12 +107,14 @@
                     <input id="additional_courses" type="checkbox" required name="additional_courses" value="to_improve"
                         class="inline" />Additional Courses
                 </label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <label for="comments">
                     <p>Any comments or suggestions?</p>
                     <textarea id="comments" name="comments" rows="6" cols="60"
                         placeholder="Enter your comment here please..."></textarea>
                 </label>
+<!-- Horizontal Rule: Used for visual separation -->
                 <hr>
                 <input type="submit" id="submit" value="Submit" />
         </form>
